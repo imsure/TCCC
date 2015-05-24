@@ -1,7 +1,9 @@
+<!DOCTYPE>
+
 <form action="pickup-action.php" method="post" />
   <div>
     <label for="name">Name*:</label>
-    <input type="text" name="name" id="name" />
+    <input type="text" required name="name" id="name" />
   </div>
   <div>
     <fieldset>
@@ -16,15 +18,15 @@
   </div>
   <div>
     <label for="airline">Airline*:</label>
-    <input type="text" name="airline" id="airline" />
+    <input type="text" required name="airline" id="airline" />
   </div>
   <div>
     <label for="flightnum">FlightNum*:</label>
-    <input type="text" name="flightnum" id="flightnum" />
+    <input type="text" required name="flightnum" id="flightnum" />
   </div>
   <div>
     <label for="arrivetime">Time of Arrival*:</label>
-    <input type="datetime-local" name="arrivetime" id="arrivetime" />
+    <input type="datetime-local" required name="arrivetime" id="arrivetime" />
   </div>
   <div>
     <label for="phone">Phone:</label>
