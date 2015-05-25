@@ -6,55 +6,55 @@
 </head>
 
 <form action="pickup.php" method="post" />
-  <h2><center>Fall 2015 Pick up form</center></h2>
-  <h4><center>*Required</center></h4>
+  <h2><center>图森华人基督教会2015年秋季学期新生接机</center></h2>
+  <h4><center>*必填项</center></h4>
   <div>
-    <label for="name">Name*:</label>
+    <label for="name">姓名*:</label>
     <input type="text" required name="name" id="name" />
   </div>
   <div>
-    <label>Gender*:</label>
-    <input type="radio" required name="gender" id="r1" value="Male" /> Male
-    <input type="radio" required name="gender" id="r2" value="Female" /> Female
+    <label>性别*:</label>
+    <input type="radio" required name="gender" id="r1" value="Male" /> 男
+    <input type="radio" required name="gender" id="r2" value="Female" /> 女
   </div>
   <div>
-    <label for="email">Email*:</label>
+    <label for="email">电子邮件*:</label>
     <input type="email" required name="email" id="email"/>
   </div>
   <div>
-    <label for="airline">Airline*:</label>
+    <label for="airline">飞往图森的航班公司*:</label>
     <input type="text" required name="airline" id="airline" />
   </div>
   <div>
-    <label for="flightnum">FlightNum*:</label>
+    <label for="flightnum">航班号*:</label>
     <input type="text" required name="flightnum" id="flightnum" />
   </div>
   <div>
-    <label for="arrivetime">Time of Arrival*:</label>
+    <label for="arrivetime">到达时间（图森本地时间）*:<br>（月/日/年,小时:分钟:AM/PM）</label>
     <input type="datetime-local" required name="arrivetime" id="arrivetime" />
   </div>
   <div>
-    <label for="phone">Phone:</label>
+    <label for="phone">国内电话:</label>
     <input type="tel" name="phone" id="phone" pattern="\d+" />
   </div>
   <div>
-    <label for="wechat">WeChat:</label>
+    <label for="wechat">微信:</label>
     <input type="text" name="wechat" id="wechat" />
   </div>
   <div>
-    <label for="address">Address:</label>
+    <label for="address">到达美国的目的地:</label>
     <input type="text" name="address" id="address" />
   </div>
   <div>
-    <label for="numbags">Number of Bags:</label>
+    <label for="numbags">行李数目:</label>
     <input type="text" name="numbags" id="numbags" />
   </div>
   <div>
-    <label for="notes">Notes:</label>
+    <label for="notes">备注:</label>
     <textarea name="notes" id="notes" /></textarea>
   </div>
 
   <div class="button">
-    <button type="submit" name="submit" id="submit">Submit</button>
+    <button type="submit" name="submit" id="submit">提交</button>
   </div>
 </form>

@@ -1,7 +1,7 @@
 form {
     /* Center the form */
     margin: 0 auto;
-    width: 400px;
+    width: 520px;
     /* To see the outline of the form */
     padding: 2em;
     border: 1px solid #CCC;
@@ -16,7 +16,7 @@ form div + div {
 label {
     /* To make sure that all labels have the same size and are properly aligned */
     display: inline-block;
-    width: 120px;
+    width: 220px;
     text-align: right;
 }
 
@@ -65,7 +65,7 @@ h4 {
 
 .button {
     /* To position the buttons to the same position of the text fields */
-    padding-left: 120px; /* same size as the label elements */
+    padding-left: 220px; /* same size as the label elements */
 }
 button {
     /* This extra margin represent roughly the same space as the space
