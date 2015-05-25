@@ -34,6 +34,23 @@ input, textarea {
     border: 1px solid #999;
 }
 
+input:focus, textarea:focus {
+    /* To give a little highlight on active elements */
+    border-color: #000;
+}
+
+textarea {
+    /* To properly align multiline text fields with their labels */
+    vertical-align: top;
+
+    /* To give enough room to type some text */
+    height: 5em;
+
+    /* To allow users to resize any textarea vertically
+       It does not work on every browsers */
+    resize: vertical;
+}
+
 #r1, #r2 {
     width: 20px;
 }
@@ -44,4 +61,33 @@ h2 {
 
 h4 {
     color: red;
+}
+
+.button {
+    /* To position the buttons to the same position of the text fields */
+    padding-left: 120px; /* same size as the label elements */
+}
+button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
+}
+
+button[type="submit"]{
+    background-color: green;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: poiner;
+    border:none;
+}
+
+#submit:hover {
+    border: none;
+    background:red;
+    box-shadow: 0px 0px 1px #777;   
 }
