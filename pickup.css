@@ -63,6 +63,11 @@ h4 {
     color: red;
 }
 
+h5 {
+    color: red;
+    line-height: 10%;
+}
+
 .button {
     /* To position the buttons to the same position of the text fields */
     padding-left: 220px; /* same size as the label elements */
