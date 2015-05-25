@@ -1,16 +1,21 @@
 <!DOCTYPE>
+<head>
+  <meta charset="UTF-8">
+  <title>Fall Pickup</title>
+  <link rel="stylesheet" href="pickup.css">
+</head>
 
-<form action="pickup-action.php" method="post" />
+<form action="pickup.php" method="post" />
+  <h2><center>Fall 2015 Pick up form</center></h2>
+  <h4><center>*Required</center></h4>
   <div>
     <label for="name">Name*:</label>
     <input type="text" required name="name" id="name" />
   </div>
   <div>
-    <fieldset>
-      <legend for="">Gender*:</legend>
-      <input type="radio" required name="gender" id="r1" value="Male" /><label for="r1">Male </label>
-      <input type="radio" required name="gender" id="r2" value="Female" /><label for="r2">Female </label>
-    </fieldset>
+    <label>Gender*:</label>
+    <input type="radio" required name="gender" id="r1" value="Male" /> Male
+    <input type="radio" required name="gender" id="r2" value="Female" /> Female
   </div>
   <div>
     <label for="email">Email*:</label>
@@ -46,7 +51,7 @@
   </div>
   <div>
     <label for="notes">Notes:</label>
-    <input type="textarea" name="notes" id="notes" />
+    <textarea name="notes" id="notes" /></textarea>
   </div>
 
   <div class="button">

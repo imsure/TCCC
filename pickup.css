@@ -1,0 +1,47 @@
+form {
+    /* Center the form */
+    margin: 0 auto;
+    width: 400px;
+    /* To see the outline of the form */
+    padding: 2em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+/* Add some space between each of the form widget. */
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    /* To make sure that all labels have the same size and are properly aligned */
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+}
+
+input, textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+
+    /* To give the same size to all text field */
+    width: 240px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* To harmonize the look & feel of text field border */
+    border: 1px solid #999;
+}
+
+#r1, #r2 {
+    width: 20px;
+}
+
+h2 {
+    color: blue;
+}
+
+h4 {
+    color: red;
+}
