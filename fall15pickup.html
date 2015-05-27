@@ -35,20 +35,28 @@
     <input type="datetime-local" required name="arrivetime" id="arrivetime" />
   </div>
   <div>
-    <label for="phone">国内电话(numbers only):</label>
-    <input type="tel" name="phone" id="phone" pattern="\d+" />
+    <label for="phone-china">国内电话(numbers only):</label>
+    <input type="tel" name="phone-china" id="phone-china" pattern="\d+" />
   </div>
   <div>
-    <label for="wechat">微信:</label>
+    <label for="phone-us">美国电话(如果有的话):</label>
+    <input type="tel" name="phone-us" id="phone-us" pattern="\d+" />
+  </div>
+  <div>
+    <label for="wechat">微信或QQ:</label>
     <input type="text" name="wechat" id="wechat" />
   </div>
   <div>
-    <label for="address">到达美国的目的地:</label>
+    <label for="address">到达Tucson后的住宿地址:</label>
     <input type="text" name="address" id="address" />
   </div>
   <div>
-    <label for="numbags">行李数目:</label>
-    <input type="text" name="numbags" id="numbags" />
+    <label for="num-large-bags">大件行李数目:</label>
+    <input type="text" name="num-large-bags" id="num-large-bags" />
+  </div>
+  <div>
+    <label for="num-small-bags">小件行李数目:</label>
+    <input type="text" name="num-small-bags" id="num-small-bags" />
   </div>
   <div>
     <label for="notes">备注:</label>
